@@ -38,6 +38,8 @@ app.UseCors(options =>
     .AllowAnyHeader();
 });
 
+
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
